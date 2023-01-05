@@ -8,40 +8,40 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>World Clock</h1>
-    <select>
-      <option value=""></option>
-      <option value=""></option>
-      <option value=""></option>
-      <option value=""></option>
-      <option value=""></option>
-    </select>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select>
+        <option value="">Select a city...</option>
+        <option value="current">My Current Location</option>
+        <option value="Europe/London">London</option>
+        <option value="America/New_York">New York</option>
+        <option value="Pacific/Auckland">Auckland</option>
+      </select>
 
-    <div class="city">
-      <h2>Los Angeles</h2>
-      <div class="date">Janaury 3rd 2023</div>
-      <div class="time">1:45:30 AM</div>
+      <div class="cities">
+        <div class="city" id="los-angeles">
+          <div>
+            <h2>Los Angeles 🇺🇸</h2>
+            <div class="date">Thursday Jan 5th</div>
+          </div>
+          <div class="time">10:00:00<small>AM</small></div>
+        </div>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris 🇫🇷</h2>
+            <div class="date">Thursday Jan 5th</div>
+          </div>
+          <div class="time">10:00:00<small>AM</small></div>
+        </div>
+      </div>
     </div>
-    <div class="city">
-      <h2>Sydney</h2>
-      <div class="date">Janaury 3rd 2023</div>
-      <div class="time">1:45:30 AM</div>
-    </div>
-    <div class="city">
-      <h2>Barcelona</h2>
-      <div class="date">Janaury 3rd 2023</div>
-      <div class="time">1:45:30 AM</div>
-    </div>
-    <div class="city">
-      <h2>London</h2>
-      <div class="date">Janaury 3rd 2023</div>
-      <div class="time">1:45:30 AM</div>
-    </div>
+    <footer>
+      <a
+        href="https://github.com/marynmcnamara/World-Clock-App-Maryn-McNamara"
+        target="_blank"
+        >Open-source code</a
+      >
+      by Maryn McNamara
+    </footer>
   </body>
-  <footer>
-    <a href="https://github.com/marynmcnamara/World-Clock-App-Maryn-McNamara"
-      >Open-source code</a
-    >
-    by Maryn McNamara
-  </footer>
 </html>
