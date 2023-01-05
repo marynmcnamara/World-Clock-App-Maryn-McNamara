@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -22,16 +24,16 @@
         <div class="city" id="los-angeles">
           <div>
             <h2>Los Angeles 🇺🇸</h2>
-            <div class="date">Thursday Jan 5th</div>
+            <div class="date"></div>
           </div>
-          <div class="time">10:00:00<small>AM</small></div>
+          <div class="time"></div>
         </div>
         <div class="city" id="paris">
           <div>
             <h2>Paris 🇫🇷</h2>
-            <div class="date">Thursday Jan 5th</div>
+            <div class="date"></div>
           </div>
-          <div class="time">10:00:00<small>AM</small></div>
+          <div class="time"></div>
         </div>
       </div>
     </div>
@@ -43,5 +45,6 @@
       >
       by Maryn McNamara
     </footer>
+    <script src="src/app.js"></script>
   </body>
 </html>
